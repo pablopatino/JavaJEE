@@ -16,6 +16,8 @@ public class Test {
             
             List<Persona> personas = pi.listarPersonas();
             
+            System.out.println("Prueba");
+            
             personas.forEach( p -> {
                 System.out.println("Persona: " + p);
             } );
